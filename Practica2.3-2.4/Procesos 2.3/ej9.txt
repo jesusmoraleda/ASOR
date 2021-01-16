@@ -1,0 +1,19 @@
+*********************** **Ejercicio 9** ***********************
+
+<pre>
+<code>$man kill
+$man pkill
+</code></pre>
+
+Envía una señal a un proceso. Uso:
+
+<pre>
+<code>$kill <pid> #Envía la señal de KILL a un proceso.
+$kill -9 <pid>
+$kill -s <pid> #Manda una señal.
+$kill -l #Lista todas las señales.
+</code></pre>
+
+Todas las señales del sistema:
+
+ej9_listaseñales.png

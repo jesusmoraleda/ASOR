@@ -1,0 +1,11 @@
+*********************** **Ejercicio 1** ***********************
+
+<pre>
+<code>$man ps
+</code></pre>
+
+**ps -u $USER -f** Mostrar todos los procesos del usuario actual en formato extendido.
+**ps -eo pid,gid,sid,s,command** Mostrar los procesos del sistema, incluyendo PID, del grupo, la sesión, el estado y la línea de comandos.
+
+a) El PID(y el SID) de la shell es el SID del nuevo proceso. Comparten el GID (1000)
+b) 1000
