@@ -1,0 +1,15 @@
+*********************** **Ejercicio 5** ***********************
+
+*Terminal 1*
+<pre>
+<code>$gcc -o ej2 ej2.c
+$./ej2
+</code></pre>
+
+ej5.c
+
+*Terminal 2*
+<pre>
+<code>$echo "Test" > tuberia
+$echo "Test" > tuberia2
+</code></pre>

@@ -1,0 +1,15 @@
+*********************** **Ejercicio 3** ***********************
+
+*Terminal 1*
+<pre>
+<code>$man mkfifo
+$mkfifo tuberia
+$ls -l
+&stat tuberia
+$echo "Test" > tuberia
+</code></pre>
+
+*Terminal 2*
+<pre>
+<code>$cat tuberia
+</code></pre>
